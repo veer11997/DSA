@@ -1,0 +1,111 @@
+1)A2oj problems
+
+===========================================>>>>>
+1=>data structure and algo(Hackerarth,codechef then codedforces , )
+
+==========================================>>>>>
+1=>  linear search(Hackerearth.......,cp algo,gfg)
+2=>  palindrome and number problem like perfect , armstrong  and basic number problem 
+3=>  simple hashing problem
+4=>  prefix sum problem 1D & 2D 
+5=>  sliding window problem
+6=>  Binary search problem
+7=>  Gcd problem 
+8=>  linear disphantine eqation
+9=>  prime number
+10=> sieve of eratosthemes 
+11=> segmented sieves 
+12=> prime factorization 
+13=> euler tutient problem
+14=> format little theorem
+15=> wilson theorem
+16=> finding  x^n in log n
+17=> moduler arithmetic 
+18=> moduler inverse of a number
+19=> modular exponentiation 
+20=> chinees remainder theorem
+21=> factrial modulo mod 
+22=> finding ncr and npr
+23=> inclusion exclusion principle 
+24=> learn about basic sorting algo
+25=> dp problem which are constructive and swapping terms
+26=> solve problem related to 2 pointer
+27=> Bit manipulation 
+28=> power set of a given array  or a string using bit
+29=> number of subarray with xor as zero 
+30=> problem related to greedy algorithem 
+31=> kadane algorithem
+32=> job sequencing and axtivity selection problem
+33=> start with basic recursion problem like factoria
+34=> implement binary search 
+35=> implement modular exponetion 
+36=> solve recursion problem like finding  subset with given sum and others to get a strong grip
+37=> learn about merge sort and quick sort 
+38=> solve problem related to merge sort 
+39=> do  backtracking problem like sudoku and n queen , it will help you
+40=> meet in the middle algorithem and problem
+41=> divide and conquer problem 
+42=> next greater element /next smaller element using stack
+43=> problem related to parenthesis
+44=> largest rectanguler area in histogram 
+45=> problem related to heap(priority queue)
+46=> learn about hashing on string and solve problem , understand whem collision happens ( CP algo.)
+47=> rabin karp algo
+48=> prefix function 
+49=> kmp algo
+50=> z-function
+51=> manchaster algorithem
+52=> Tree/Graph problem
+53=> dfs/bfs traversal in graph /tree
+54=> diameter  of tree 
+55=> euler tour of tree
+56=> finding lca using euler tour
+57=> finding lca using binary lifting
+58=> distance between two nodes
+59=> subtree problem 
+60=> solve problem on above algorithem
+61=> conected component 
+62=> topolgical sort 
+63=> cycle detection in graph 
+64=> Biprate check in graph
+65=> scc using kosaraju's algorithem
+66=> Bellman fort algorithem
+67=> floyd warshall algorithem
+68=> Bridges in graph
+69=> articulation point in graph 
+70=> minimum spanning tree using kruskal's algo
+71=> prims algorithem
+72=> 0/1 b
+73=> finding bridges online
+
+
+===>> revise recursion and know about memoization for dynamic programming
+=======>> Dynamic programming
+1=> solve some existing problem on dynamic problem
+2=> solve the atcoder educational contest 
+3=> solve dp problem on dp from various platform(SPOJ)
+4=> understand how do we write recurrence for digit dp( CF blog)
+5=> read about dp with bitmasking and solve problem
+6=> dp on tree(racht jain) 
+7=> SOS  DP (CF blog)
+
+
+====>>>
+
+1) Disjoint set ( using all optimisation) and read it from  cp algorithem
+2) offline queries  and disjoint set 
+3) kruskal algorithem
+4) fenwick tree(read about range update trick also)
+5) binary problem on fenwick tree
+6) matrix exponentiation
+7) sqrt decomposition technique
+8) update and query operation 
+9) mo's algorithem
+10) mo's  algorithem on trees
+11) segment trees (range queries)
+12) lazay propagation  on segment 
+13) sprague grundy theoram
+14) flows and related problem
+15) heavy light decomposition
+16) convex hull algorithem
+17) fft/ntt 
