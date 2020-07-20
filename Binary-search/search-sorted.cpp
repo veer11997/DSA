@@ -44,7 +44,6 @@ int pivotsearch(int a[],int s,int e,int key)
 
 
 
-
 }
 
 int main()

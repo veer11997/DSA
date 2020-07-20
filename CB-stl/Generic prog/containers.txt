@@ -1,0 +1,38 @@
+
+Generic container
+CONTAINERS IN STL==>>
+
+1)Sequence Containers---> implement data structure in which way that can be accessed in a sequencial manner
+
+*vector 
+*list
+*deque
+*array
+*forward_list
+
+2) Container adaptors---> provide a different interface for sequencial container
+
+*queue 
+*priority_queue
+*stack
+//diferent interface
+
+3) Associate containers---> implement sorted data structure that can be quickly searched (O(logN)
+
+*set
+*mutiset
+*map
+*multimap
+
+//sorted order
+
+4)Unordered Associate Containers--> implement unordered data structure that can be quickly
+
+*unordered_set
+*unordered_multiset
+*unorederd_mutimap
+*unordered_map
+
+//not sorted orderer it is quite fast
+
+	

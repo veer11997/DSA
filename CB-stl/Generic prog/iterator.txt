@@ -1,0 +1,11 @@
+ITERATORS=> iterator is an entity(object) that helps us to access the data while a container with certain restriction
+
+1)input iterator--> a entity through which you can need data from container and move ahead like keyboard
+
+2)outpur itertor--> a entity through which you can write  data into  container and move ahead .
+
+3)forward iterator--> iterator with functionlity of input and output iterator in single direction like singly linked list
+
+4)Bidirectional iterator--> forward iterator that can be move in both direction
+
+5)Random access iterator--> Random access iterator is an iterator that can read/write in both direction and also can take jumps like array ,vector. 
