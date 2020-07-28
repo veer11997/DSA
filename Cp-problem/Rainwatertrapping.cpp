@@ -11,7 +11,7 @@ int height[n];
 
 for(int i=0;i<n;i++)
 {
-          cin>>height[i];
+cin>>height[i];
 }
 
 int maxi=height[0];
