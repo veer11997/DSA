@@ -4,11 +4,46 @@
 // assuming only one duplicate number
 
 using namespace std;
+//slow fast pointer approach
+
+
+class Solution
+{
+public:
+     int findDuplicate(vector<int> &nums)
+     {
+
+          int slow=nums[0];
+          int fast=nums[0];
+          do{
+
+               slow=nums[slow];
+               fast=nums[nums[fast]];
+          }while(slow!=fast);
+          fast =nums[0];
+          while(slow!=fast)
+          {
+               slow=nums[slow];
+               fast=nums[fast];
+          }
+          return slow;
+     }
+};
+
+int main()
+{
+     Solution s;
+     vector<int> v={2,5,9,6,9,3,8,9,7,1};
+     int ans=s.findDuplicate(v);
+     cout<<ans;
+     return 0;
+}
 
 
 
 
 
+/*
 int main()
 {
 
@@ -30,7 +65,7 @@ int main()
 return 0;
 
 }
-
+*/
 
 /*
 int main()
