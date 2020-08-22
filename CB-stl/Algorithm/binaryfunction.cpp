@@ -3,13 +3,15 @@
 using namespace std;
 
 
+// search in sorted array O(Log(N))
+
 int main()
 {
 int a[]={20,30,40,40,40,50,100,1100};
 int n=sizeof(a)/sizeof(int);
 int key;
 cin>>key;
-bool present=binary_search(a,a+n,key);
+bool present=binary_search(a,a+n,key);// it returns true or false depending upon element is present or not
 if(present)
      cout<<"present:";
 else

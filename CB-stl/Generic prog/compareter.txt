@@ -1,0 +1,16 @@
+
+
+===>when we want make Generic function
+we have to use template
+because with the template you got freedom from
+Datatype (int,float...)
+
+===>we have to use iterator due to this we 
+get freedom from all type of containers
+like (vector,array,list...)
+
+
+====>with the comparetor we can campare with
+any thing
+
+

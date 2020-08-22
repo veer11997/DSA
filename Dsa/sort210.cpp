@@ -50,10 +50,10 @@ int main()
 /*
 int main()
 {
-     // Dutch national flag
-
+     // Dutch national flag algorithm
+     //00000(low1)111(high)(mid2)2
      // O(N) time complexity  O(1) space complexity
-     // 0 --> (0......low-1)
+     // (0......low-1)--->0
      //a[high+1.....n]--->2
      //low......mid-1---->1
       int a[]={0,1,1,0,1,2,1,2,0,0,0,1};
@@ -88,7 +88,7 @@ int main()
 int main()
 {
      // total complexity will be O(N) +O(N)==> O(2N)
-     // count sort algorithm
+     // counting  sort algorithm
      int a[]={0,1,1,0,1,2,1,2,0,0,0,1};
      int n=sizeof(a)/sizeof(int);
      int s0=0,s1=0,s2=0;
@@ -137,7 +137,8 @@ int main()
 
 int main()
 {
-     // time complexity O(log(N) space complexity O(1)
+     //using sorting
+     // time complexity O(Nlog(N) space complexity O(1)
      vector<int> v={2,0,2,1,1,1,2,2,0,0,0,1};
      sort(v.begin(),v.end());
      for(int x : v)

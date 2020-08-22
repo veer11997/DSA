@@ -5,7 +5,7 @@
 
 using namespace std;
 //slow fast pointer approach
-
+//linked list cycle method
 
 class Solution
 {
@@ -16,7 +16,6 @@ public:
           int slow=nums[0];
           int fast=nums[0];
           do{
-
                slow=nums[slow];
                fast=nums[nums[fast]];
           }while(slow!=fast);
@@ -47,7 +46,9 @@ int main()
 int main()
 {
 
-
+//hashing
+//o(n) time space O(n)
+// using maping
      int a[]={2,5,9,6,9,3,8,9,7,1};
      int n=sizeof(a)/sizeof(int);
      int ans=0;
