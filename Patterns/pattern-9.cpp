@@ -17,6 +17,10 @@ int main()
           {
                cout<<"*\t";
           }
+         else if(i+j==n+1)
+          {
+            cout<<"*\t";
+          }
           else
           {
                cout<<"\t";
@@ -25,4 +29,3 @@ int main()
           cout<<endl;
      }
 }
-
