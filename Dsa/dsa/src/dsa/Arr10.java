@@ -27,27 +27,30 @@ public class Arr10 {
     for(int i = 0; i < n; i++){
        arr[i] = sc.nextInt();
     }
+int limit = (int)Math.pow(2,arr.length);
 
-    StringBuilder sb = new StringBuilder();
-    for(int i = 0; i < (1 << arr.length); i++){
-       int dec = i;
-       String str = "";
 
-       for(int j = 0; j < arr.length; j++){
-          int r = dec % 2;
-          dec = dec / 2;
-
-          if(r == 0){
-            str = "-\t" + str;
-          } else {
-            str = arr[arr.length - 1 - j] + "\t" + str;
-          }
-       }
-
-       sb.append(str + "\n");
+for(int i=0;i<limit;i++)
+{
+    String str="";
+    int temp =i;
+    
+    for(int j=arr.length-1;j>=0;j--)
+    {
+        int r = temp%2;
+        temp = temp/2;
+        if(r==0)
+        {
+             str = "-\t" + str;
+        }
+        else
+        {
+            str = arr[j] + "\t" + str;
+        }
+        
     }
-
-    System.out.println(sb);
+     System.out.println(str);
+}
     }
     
 }
