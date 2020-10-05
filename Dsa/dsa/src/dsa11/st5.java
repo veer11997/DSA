@@ -13,66 +13,61 @@ import java.util.Stack;
  *
  * @author hp
  */
-public class st4 {
+public class st5 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code application logic here\\
         
         Scanner sc = new Scanner(System.in);
+        
         int n = sc.nextInt();
-        
         int [] a = new int[n];
+        
         for(int i=0;i<n;i++)
-        {
-         
             a[i] = sc.nextInt();
-            
-        }
         
-        int [] nga = solve(a);
-        
-        for(int i=0;i<nga.length;i++)
-        {
-            
-         System.out.println(nga[i]);   
-        }
+        int [] nge = solve(a);
+                
     }
     
     public static int [] solve(int [] arr)
     {
-        
-        int [] nga = new int[arr.length];
-        
+     
+        int [] span = new int[arr.length];
         Stack<Integer> st = new Stack<>();
         
-        st.push(arr[arr.length-1]);
-        nga[arr.length-1] = -1;
+        st.push(0);
+        span[0]=1;
         
-        for(int i= arr.length-2;i>=0;i--)
+        for(int i=1;i<arr.length;i++)
         {
-         while(st.size()>0 && arr[i]>=st.peek())
+         while(st.size()>0 && arr[i] > arr[st.peek()])
          {
-             
-          st.pop();   
-         }
+             st.pop();
+            
+        }
          
-         if(st.size()>0)
+         if(st.size()==0)
          {
-          nga[i] = st.peek();   
+          span[i] = i+1;   
          }
          else
          {
-             nga[i] = -1;
+          span[i] = i-st.peek();   
          }
-        st.push(arr[i]);
-         
-        }
+            
+        st.push(i);
         
-        return nga;
     }
-
+        
+        return span;
     
 }
+ 
+    
+}
+    
+
